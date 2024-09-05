@@ -1,0 +1,5 @@
+"C:\Program Files\Imagination Technologies\Toolchains\mips-mti-elf\2017.10-05\bin\mips-mti-elf-gdb.exe" -x startup.txt
+
+Load vmlinux_MINISYS_20190626
+
+"C:\Program Files\Imagination Technologies\Toolchains\mips-mti-linux-gnu\2017.10-05\bin\mips-mti-linux-gnu-gcc.exe" -static simple_gpio.c -EL -o simple_gpio -ffunction-sections -fdata-sections -Wl,--gc-sections -Os -s
