@@ -1,0 +1,4 @@
+1 const nval=5
+2 var minlev=0 addr=3
+3 var ilev=0 addr=4
+4 var currentlev=0 addr=5

@@ -1,0 +1,33 @@
+Iput pl/0 file ?y
+0 const n = 5;
+
+1 var min, i, current;
+
+1 
+
+1 begin
+
+2   read(current);
+
+4   min := current;
+
+6   i := 1;
+
+8   while i < n do
+
+12     begin
+
+12       read(current);
+
+14       if current < min then
+
+17         min := current;
+
+20       i := i + 1
+
+22     end;
+
+25   write(min)
+
+27 end.
+
